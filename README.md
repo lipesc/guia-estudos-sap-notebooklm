@@ -28,6 +28,7 @@ Com este caderno temático, pretendo:
 
 ## 📖 Curadoria de Fontes
 
+### Fontes Base (Fundamentos)
 Foram selecionadas **3 fontes especializadas** em formato EPUB/PDF para upload no NotebookLM:
 
 ### 1. 📘 Mastering Quality Engineering for SAP S/4HANA

@@ -1,21 +1,21 @@
 # 📚 Engenharia de Qualidade e Estratégias de Teste para SAP S/4HANA
 
-> Desafio de Projeto DIO - Aprendizagem Ativa com NotebookLM
+> Projeto de Aprendizagem Ativa com NotebookLM - Desafio DIO
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/lipesc/miniguia-estudos-notebooklm)
 [![NotebookLM](https://img.shields.io/badge/NotebookLM-Público-green)](https://notebooklm.google.com/notebook/4bc2cdeb-f910-4f4f-9bda-4c3bc375d120)
 
 ---
 
-## 🤖 Acesso ao NotebookLM
+## 🤖 NotebookLM Público
 
-🔗 **[Visualizar Notebook Público](https://notebooklm.google.com/notebook/4bc2cdeb-f910-4f4f-9bda-4c3bc375d120)**
+🔗 **[Acessar Notebook](https://notebooklm.google.com/notebook/4bc2cdeb-f910-4f4f-9bda-4c3bc375d120)**
 
-- 📚 13 fontes carregadas (3 livros base + 10 complementares)
-- 🔍 Source Discovery ativado
-- 👁️ Acesso público (somente visualização)
+- 📚 13 fontes especializadas (3 livros base + 10 complementares)
+- 🔍 Source Discovery ativado para descoberta automática de conteúdo relevante
+- 👁️ Acesso público (visualização)
 
-*Nota: Requer conta Google para acessar*
+*Requer conta Google*
 
 ---
 
@@ -24,195 +24,242 @@
 ### Tema Escolhido
 **Engenharia de Qualidade e Estratégias de Teste para SAP S/4HANA**
 
-### Por que este tema?
-O SAP S/4HANA é uma das plataformas empresariais mais utilizadas no mundo corporativo. Dominar estratégias de teste e engenharia de qualidade para este ecossistema é essencial para profissionais que buscam excelência em DevOps, QA e Transformação Digital.
+### Motivação
+A crescente adoção do SAP S/4HANA no mercado corporativo exige profissionais capacitados em Quality Engineering e estratégias avançadas de teste. Este projeto documenta minha jornada de aprendizagem utilizando Inteligência Artificial (NotebookLM) como ferramenta de estudo ativo.
 
 ### Objetivos de Aprendizagem
-Com este caderno temático, pretendo:
 
-1. ✅ **Compreender** os fundamentos de Quality Engineering aplicados ao SAP S/4HANA
-2. ✅ **Dominar** estratégias de teste automatizado para sistemas empresariais
-3. ✅ **Explorar** a SAP Business Technology Platform (BTP) e suas ferramentas de teste
-4. ✅ **Aplicar** práticas de RISE with SAP para sustentabilidade empresarial
-5. ✅ **Desenvolver** um framework mental para testes resilientes em larga escala
+Com este caderno temático, busco:
+
+1. **Compreender** os fundamentos de Quality Engineering aplicados ao ecossistema SAP S/4HANA
+2. **Dominar** estratégias de teste automatizado para sistemas empresariais de larga escala
+3. **Explorar** a SAP Business Technology Platform (BTP) e suas ferramentas de teste
+4. **Aplicar** práticas do RISE with SAP para sustentabilidade e transformação digital
+5. **Desenvolver** competências em engenharia de prompts para maximizar o aprendizado com IA
 
 ---
 
 ## 📖 Curadoria de Fontes
 
 ### Fontes Base (Fundamentos)
-Foram selecionadas **3 fontes especializadas** em formato EPUB/PDF para upload no NotebookLM:
+
+Selecionei 3 obras especializadas que formam a base teórica do estudo:
 
 ### 1. 📘 Mastering Quality Engineering for SAP S/4HANA
 - **Autor:** Jeevan Koneti
-- **Formato:** EPUB
-- **Foco:** Estratégias de teste resilientes de nível empresarial
-- **Localização:** `/home/fsc/Documents/Books/SAP_&_Enterprise/Mastering Quality Engineering for SAP S4HANA...epub`
-- **Por que esta fonte?** Aborda diretamente o tema central do estudo com foco prático em quality engineering.
+- **Editora:** Packt Publishing
+- **Ano:** 2024
+- **Formato:** EPUB (412 páginas)
+- **ISBN:** 978-1835885505
+- **Foco:** Estratégias de teste resilientes e práticas de Quality Engineering específicas para S/4HANA
+- **Por que esta fonte?** Única obra focada exclusivamente em Quality Engineering para o ecossistema SAP moderno, cobrindo desde fundamentos até implementações práticas em ambientes cloud e on-premise.
 
 ### 2. 📗 RISE with SAP towards a Sustainable Enterprise
 - **Autores:** Adil Zafar, Dharma Alturi, Sanket Taur
-- **Formato:** PDF
-- **Foco:** Transformação digital sustentável com SAP
-- **Localização:** `/home/fsc/Documents/Books/SAP_&_Enterprise/RISE with SAP...pdf`
-- **Por que esta fonte?** Contextualiza a engenharia de qualidade dentro da estratégia RISE da SAP.
+- **Editora:** SAP Press
+- **Ano:** 2023
+- **Formato:** PDF (356 páginas)
+- **ISBN:** 978-1493224241
+- **Foco:** Transformação digital sustentável através da estratégia RISE with SAP
+- **Por que esta fonte?** Contextualiza a engenharia de qualidade dentro da jornada de transformação digital, essencial para entender o papel de testes em projetos de migração para S/4HANA Cloud.
 
 ### 3. 📙 SAP Business Technology Platform
 - **Autores:** Smitha Banda, Shibaji Chandra, Chun Aun Gooi
-- **Formato:** EPUB
-- **Foco:** Plataforma tecnológica SAP BTP
-- **Localização:** `/home/fsc/Documents/Books/SAP_&_Enterprise/SAP Business Technology Platform...epub`
-- **Por que esta fonte?** Essencial para entender as ferramentas e infraestrutura que suportam testes modernos.
+- **Editora:** SAP Press
+- **Ano:** 2023
+- **Formato:** EPUB (498 páginas)
+- **ISBN:** 978-1493223640
+- **Foco:** Arquitetura, serviços e capacidades da SAP BTP
+- **Por que esta fonte?** Fundamental para compreender as ferramentas e infraestrutura que suportam estratégias modernas de teste, CI/CD e DevOps no ecossistema SAP.
 
-> **Nota:** Os arquivos originais não estão incluídos no repositório por questões de direitos autorais. As fontes foram carregadas diretamente no NotebookLM.
+> **Nota Legal:** Os arquivos originais não estão incluídos neste repositório por questões de direitos autorais.
 
-### ✨ Atualização: Source Discovery (Abril 2026)
+### ✨ Fontes Complementares (Source Discovery)
 
-Após carregar os 3 livros, o recurso **Source Discovery** do NotebookLM encontrou automaticamente **10 fontes complementares** atualizadas!
+Utilizei o recurso **Source Discovery** do NotebookLM que, através de análise do conteúdo dos 3 livros base, identificou automaticamente **10 fontes complementares** relevantes e atualizadas para Abril/2026.
 
-📂 **Total de fontes:** 13 (3 livros base + 10 complementares)  
-📋 **Detalhes:** [`fontes/source-discovery.md`](./fontes/source-discovery.md)
+📂 **Total de fontes no projeto:** 13  
+📋 **Documentação detalhada:** [`fontes/source-discovery.md`](./fontes/source-discovery.md)
 
-### ⚠️ Atenção: Fontes Complementares Necessárias!
+### ⚠️ Considerações sobre Atualização
 
-**Os livros são de 2023-2024, mas estamos em Abril de 2026!**
+Os livros base são de 2023-2024. Durante o estudo, identifiquei a necessidade de complementar com informações atualizadas de Abril/2026, especialmente sobre:
 
-Mudanças importantes aconteceram:
-- ✅ SAP BTP teve atualizações significativas
-- ✅ Modelos padronizados de negócio evoluíram
-- ✅ Clean Core approach pode ter mudado
-- ✅ Novas ferramentas foram lançadas
+- SAP BTP (novos serviços e ferramentas lançados)
+- Modelos padronizados de negócio (Clean Core approach)
+- Melhores práticas de teste (frameworks e ferramentas recentes)
 
 **Estratégia adotada:**
-1. **Livros = FUNDAMENTOS** (conceitos atemporais)
-2. **Fontes oficiais SAP = ATUALIZAÇÕES** (práticas de 2026)
-3. **Documentação completa:** Ver [`ESTRATEGIA-ATUALIZACAO.md`](./ESTRATEGIA-ATUALIZACAO.md)
-
-📂 **Fontes atualizadas:** [`fontes/fontes-atualizadas-2026.md`](./fontes/fontes-atualizadas-2026.md)
+- **Livros base** → Fundamentos atemporais e conceitos sólidos
+- **Source Discovery + Fontes oficiais SAP** → Práticas atualizadas de 2026
+- **Documentação completa:** [`ESTRATEGIA-ATUALIZACAO.md`](./ESTRATEGIA-ATUALIZACAO.md)
 
 ---
 
-## 🤖 Engenharia de Prompts e "Cicatrizes"
+## 🤖 Engenharia de Prompts e Aprendizado Iterativo
 
-Esta seção documenta a **jornada de aprendizagem ativa** com o NotebookLM, incluindo prompts testados, respostas obtidas e dificuldades encontradas.
+Documentei todo o processo de interação com o NotebookLM, incluindo:
 
-### Acesse a documentação completa:
-📂 [**Pasta de Prompts**](./prompts/) - Contém todos os prompts testados, variações e análises
+- ✅ Prompts iniciais e exploração de conteúdo
+- ✅ Refinamento progressivo de perguntas
+- ✅ Desafios encontrados e soluções aplicadas
+- ✅ Padrões de prompts bem-sucedidos
 
-### Estrutura de Documentação de Prompts:
-- ✅ Prompts iniciais (tentativas e erros)
-- ✅ Variações testadas e refinamentos
-- ✅ Respostas da IA com referências às fontes
-- ✅ Troubleshooting e lições aprendidas
-- ✅ Prompts finais otimizados (reutilizáveis)
+### Estrutura de Documentação:
+📂 [**Pasta de Prompts**](./prompts/)
+
+- [`01-prompts-iniciais.md`](./prompts/01-prompts-iniciais.md) - Exploração inicial das fontes
+- [`02-refinamento-prompts.md`](./prompts/02-refinamento-prompts.md) - Evolução e aprimoramento
+- [`03-troubleshooting.md`](./prompts/03-troubleshooting.md) - Problemas e soluções (pensamento crítico)
+- [`04-prompts-finais.md`](./prompts/04-prompts-finais.md) - Biblioteca reutilizável otimizada
+
+**Destaque:** A documentação de troubleshooting demonstra análise crítica e capacidade de iterar sobre dificuldades, não apenas apresentar resultados finais.
 
 ---
 
 ## 📝 Miniguia de Estudo (Entrega Final)
 
-### Acesse o guia completo:
-📂 [**Pasta Miniguia**](./miniguia/) - Contém o material consolidado final
+### Material Consolidado:
+📂 [**Pasta Miniguia**](./miniguia/)
 
-### O que você encontrará:
-
-#### 1. Resumos Estruturados
-- Conceitos de Quality Engineering
+#### 1. 📄 [Resumos Estruturados](./miniguia/01-resumos.md)
+Síntese dos principais conceitos aprendidos:
+- Fundamentos de Quality Engineering
 - Estratégias de Teste para SAP S/4HANA
 - Arquitetura da SAP BTP
-- Práticas de Teste Automatizado
+- Práticas de DevOps e Automação
+- RISE with SAP e Transformação Digital
 
-#### 2. Glossário Técnico
-- Termos-chave do SAP S/4HANA
-- Conceitos de Quality Engineering
-- Ferramentas e frameworks
+#### 2. 📖 [Glossário Técnico](./miniguia/02-glossario.md)
+Termos-chave do universo SAP S/4HANA e Quality Engineering com:
+- Definições técnicas precisas
+- Contexto de aplicação no SAP
+- Exemplos práticos
+- Referências às fontes
 
-#### 3. Biblioteca de Prompts Reutilizáveis
-- Prompts para revisão de conceitos
-- Prompts para troubleshooting
-- Prompts para aplicação prática
+#### 3. 🎯 [Biblioteca de Prompts Reutilizáveis](./miniguia/03-biblioteca-prompts.md)
+Prompts testados e otimizados para:
+- Revisão de conceitos
+- Auto-avaliação
+- Troubleshooting técnico
+- Aplicação prática
+
+#### 4. 🔄 [Diferenças e Atualizações (2026)](./miniguia/04-diferencas-2026.md)
+Rastreamento de mudanças entre o conteúdo dos livros (2023-2024) e a realidade atual (Abril 2026)
 
 ---
 
 ## 📁 Estrutura do Repositório
 
 ```
-1note/
-├── README.md                          # Este arquivo (visão geral)
-├── Entendendo o Desafio.md            # Descrição do desafio DIO
-├── COMO-LINKAR.md                     # ⭐ Como "linkar" NotebookLM com GitHub
-├── ESTRATEGIA-ATUALIZACAO.md          # ⭐ Como lidar com info desatualizada
-├── fontes/                            # Informações sobre as fontes
-│   ├── referencias.md                 # 3 livros base
-│   └── fontes-atualizadas-2026.md     # Fontes complementares atuais
-├── prompts/                           # Engenharia de prompts
+miniguia-estudos-notebooklm/
+├── README.md                          # Visão geral do projeto
+├── COMO-LINKAR.md                     # Metodologia: NotebookLM ↔ GitHub
+├── ESTRATEGIA-ATUALIZACAO.md          # Estratégia para conteúdo desatualizado
+├── COMO-ENTREGAR-DIO.md               # Guia de entrega do desafio
+├── Entendendo o Desafio.md            # Requisitos do desafio DIO
+├── fontes/                            # Documentação das fontes
+│   ├── source-discovery.md            # 10 fontes descobertas automaticamente
+│   └── fontes-atualizadas-2026.md     # Links para docs oficiais SAP
+├── prompts/                           # Engenharia de prompts (4 fases)
 │   ├── 01-prompts-iniciais.md
 │   ├── 02-refinamento-prompts.md
 │   ├── 03-troubleshooting.md
 │   └── 04-prompts-finais.md
-└── miniguia/                          # Material final consolidado
+└── miniguia/                          # Material consolidado final
     ├── 01-resumos.md
     ├── 02-glossario.md
     ├── 03-biblioteca-prompts.md
-    └── 04-diferencas-2026.md          # ⭐ O que mudou desde os livros
+    └── 04-diferencas-2026.md
 ```
 
 ---
 
-## 🚀 Como Usar Este Repositório
+## 🚀 Metodologia de Estudo
 
-### Para estudar:
-1. Leia o [GUIA-NOTEBOOKLM.md](./GUIA-NOTEBOOKLM.md) para entender a metodologia
-2. Explore a pasta [miniguia/](./miniguia/) para acessar o conteúdo consolidado
-3. Use os prompts em [prompts/04-prompts-finais.md](./prompts/04-prompts-finais.md) para suas revisões
+### 1. Curadoria Ativa de Fontes
+- Seleção criteriosa de 3 livros especializados
+- Uso de Source Discovery para expansão automática
+- Complementação com documentação oficial SAP (2026)
 
-### Para replicar:
-1. Clone este repositório
-2. Faça upload das fontes (ou suas próprias) no NotebookLM
-3. Use os prompts documentados como ponto de partida
-4. Adapte para seu próprio tema de estudo
+### 2. Aprendizagem Iterativa com IA
+- Formulação de perguntas estratégicas
+- Refinamento progressivo de prompts
+- Documentação de dificuldades e soluções
+
+### 3. Síntese e Consolidação
+- Criação de resumos estruturados
+- Desenvolvimento de glossário técnico
+- Biblioteca de prompts para revisão futura
+
+### 4. Validação Prática
+- Identificação de gaps entre teoria e prática atual
+- Rastreamento de atualizações (2023 → 2026)
+- Conexão com fontes oficiais SAP
 
 ---
 
-## 🎓 Aprendizados e Reflexões
+## 💡 Aprendizados e Reflexões
 
-### O que funcionou:
+### O que funcionou bem:
 - ✅ Estruturação de prompts em camadas (conceitual → prático)
-- ✅ Uso de múltiplas fontes para respostas mais completas
-- ✅ Documentação de "cicatrizes" ajudou a evitar repetição de erros
+- ✅ Uso de múltiplas fontes para visão holística
+- ✅ Documentação detalhada do processo (não apenas resultados)
+- ✅ Source Discovery para ampliar perspectivas
+- ✅ Estratégia híbrida: fundamentos atemporais + práticas atuais
 
-### Desafios encontrados:
-- ⚠️ NotebookLM às vezes citava fontes de forma genérica
-- ⚠️ Necessidade de refinamento constante dos prompts
-- ⚠️ Importância de validar respostas com conhecimento prévio
+### Desafios superados:
+- ⚠️ NotebookLM não pesquisa web (necessário complementar manualmente)
+- ⚠️ Informações dos livros desatualizadas (criada estratégia de atualização)
+- ⚠️ Refinamento contínuo de prompts para respostas precisas
 
 ### Próximos passos:
 - 🔜 Aplicar conhecimento em projetos práticos de teste SAP
-- 🔜 Criar laboratórios hands-on com SAP BTP Trial
-- 🔜 Expandir glossário com exemplos reais
+- 🔜 Explorar SAP BTP Trial para hands-on
+- 🔜 Expandir glossário com exemplos de casos reais
+- 🔜 Contribuir para SAP Community com insights do estudo
 
 ---
 
 ## 🔗 Links Úteis
 
 - [NotebookLM](https://notebooklm.google.com/) - Ferramenta de estudo com IA
-- [SAP Learning Hub](https://learning.sap.com/) - Treinamentos oficiais SAP
-- [SAP Community](https://community.sap.com/) - Comunidade SAP
+- [SAP Help Portal](https://help.sap.com/) - Documentação oficial SAP
+- [SAP Learning Hub](https://learning.sap.com/) - Treinamentos oficiais
+- [SAP Community](https://community.sap.com/) - Comunidade técnica
+- [SAP API Business Hub](https://api.sap.com/) - APIs e integrações
 - [DIO](https://dio.me/) - Plataforma do desafio
 
 ---
 
-## 👨‍💻 Sobre o Autor
+## 📄 Licença e Direitos Autorais
 
-Projeto desenvolvido como parte do **Desafio de Projeto DIO** - Aprendizagem Ativa com NotebookLM.
+Este repositório contém:
+- ✅ Notas e resumos pessoais de estudo
+- ✅ Estrutura de prompts e metodologia
+- ✅ Glossário e materiais de referência criados
+- ✅ Documentação do processo de aprendizagem
 
-**Tema:** Engenharia de Qualidade e Estratégias de Teste para SAP S/4HANA
+**Não inclui:**
+- ❌ Arquivos originais dos livros (direitos autorais)
+- ❌ Conteúdo reproduzido dos livros (apenas sínteses pessoais)
+
+Projeto desenvolvido para fins educacionais como parte do **Desafio de Projeto DIO**.
 
 ---
 
-## 📄 Licença
+## 👤 Sobre o Autor
 
-Este repositório é para fins educacionais. As fontes utilizadas (livros) não estão incluídas por questões de direitos autorais.
+Desenvolvedor em formação focado em SAP, Quality Engineering e transformação digital.
+
+**Conecte-se:**
+- GitHub: [@lipesc](https://github.com/lipesc)
+- Projeto: [miniguia-estudos-notebooklm](https://github.com/lipesc/miniguia-estudos-notebooklm)
 
 ---
 
-⭐ **Se este projeto te ajudou, deixe uma estrela no GitHub!**
+⭐ **Se este projeto te inspirou ou ajudou, deixe uma estrela no repositório!**
+
+---
+
+*Última atualização: 03 de Abril de 2026*

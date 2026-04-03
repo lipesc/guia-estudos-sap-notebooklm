@@ -1,0 +1,30 @@
+# Arquivos que não devem ser versionados
+
+# Referências completas com caminhos locais
+fontes/referencias.md
+
+# Arquivos temporários
+*.tmp
+*.bak
+*~
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Notas pessoais
+notas-pessoais/
+
+# Arquivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Livros (NUNCA versionar - direitos autorais)
+*.pdf
+*.epub
+*.mobi
+
+# Logs
+*.log

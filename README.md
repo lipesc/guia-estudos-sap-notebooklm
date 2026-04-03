@@ -54,6 +54,30 @@ Foram selecionadas **3 fontes especializadas** em formato EPUB/PDF para upload n
 
 > **Nota:** Os arquivos originais não estão incluídos no repositório por questões de direitos autorais. As fontes foram carregadas diretamente no NotebookLM.
 
+### ✨ Atualização: Source Discovery (Abril 2026)
+
+Após carregar os 3 livros, o recurso **Source Discovery** do NotebookLM encontrou automaticamente **10 fontes complementares** atualizadas!
+
+📂 **Total de fontes:** 13 (3 livros base + 10 complementares)  
+📋 **Detalhes:** [`fontes/source-discovery.md`](./fontes/source-discovery.md)
+
+### ⚠️ Atenção: Fontes Complementares Necessárias!
+
+**Os livros são de 2023-2024, mas estamos em Abril de 2026!**
+
+Mudanças importantes aconteceram:
+- ✅ SAP BTP teve atualizações significativas
+- ✅ Modelos padronizados de negócio evoluíram
+- ✅ Clean Core approach pode ter mudado
+- ✅ Novas ferramentas foram lançadas
+
+**Estratégia adotada:**
+1. **Livros = FUNDAMENTOS** (conceitos atemporais)
+2. **Fontes oficiais SAP = ATUALIZAÇÕES** (práticas de 2026)
+3. **Documentação completa:** Ver [`ESTRATEGIA-ATUALIZACAO.md`](./ESTRATEGIA-ATUALIZACAO.md)
+
+📂 **Fontes atualizadas:** [`fontes/fontes-atualizadas-2026.md`](./fontes/fontes-atualizadas-2026.md)
+
 ---
 
 ## 🤖 Engenharia de Prompts e "Cicatrizes"
@@ -103,9 +127,11 @@ Esta seção documenta a **jornada de aprendizagem ativa** com o NotebookLM, inc
 1note/
 ├── README.md                          # Este arquivo (visão geral)
 ├── Entendendo o Desafio.md            # Descrição do desafio DIO
-├── GUIA-NOTEBOOKLM.md                 # Tutorial de uso do NotebookLM
-├── fontes/                            # Informações sobre as fontes usadas
-│   └── referencias.md
+├── COMO-LINKAR.md                     # ⭐ Como "linkar" NotebookLM com GitHub
+├── ESTRATEGIA-ATUALIZACAO.md          # ⭐ Como lidar com info desatualizada
+├── fontes/                            # Informações sobre as fontes
+│   ├── referencias.md                 # 3 livros base
+│   └── fontes-atualizadas-2026.md     # Fontes complementares atuais
 ├── prompts/                           # Engenharia de prompts
 │   ├── 01-prompts-iniciais.md
 │   ├── 02-refinamento-prompts.md
@@ -114,7 +140,8 @@ Esta seção documenta a **jornada de aprendizagem ativa** com o NotebookLM, inc
 └── miniguia/                          # Material final consolidado
     ├── 01-resumos.md
     ├── 02-glossario.md
-    └── 03-biblioteca-prompts.md
+    ├── 03-biblioteca-prompts.md
+    └── 04-diferencas-2026.md          # ⭐ O que mudou desde os livros
 ```
 
 ---
